@@ -1,6 +1,6 @@
 # Principios-SOLID
 
-## Esta é a branch com as correções do código.
+## Esta é a branch com os códigos apresentando violações de principios.
 
 ## S - Single Responsability Principle
 
