@@ -1,13 +1,14 @@
 #include <iostream>
 #include <fstream>
+using namespace std;
 
 class Logger
 {
 public:
-    void log(const std::string &message)
+    void log(const string &message)
     {
         // Grava a mensagem em um arquivo de log
-        std::ofstream logFile("log.txt", std::ios::app);
+        ofstream logFile("log.txt", ios::app);
         logFile << message << "\n";
         logFile.close();
     }
@@ -29,6 +30,6 @@ int main()
 {
     Calculator calculator;
     int sum = calculator.add(5, 3);
-    std::cout << "Resultado da soma: " << sum << "\n";
+    cout << "Resultado da soma: " << sum << "\n";
     return 0;
 }
